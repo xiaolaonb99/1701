@@ -1,0 +1,19 @@
+.box{
+	width:800px; height:400px; margin:0 auto; border:1px red solid;  }
+.box ul li{
+	list-style:none; padding-left:25px;}
+li{
+	background:url(../image/cssSprite.png) no-repeat ; }
+
+.box .c1{
+	background-position:-20px -20px;}
+.box .c2{
+	background-position:-20px -60px;}
+.box .c3{
+	background-position:-20px -100px;}	
+.box .c4{
+	background-position:-20px -140px;}					
+a{
+	text-decoration:none;}
+a:hover{
+	color:gray; text-decoration:underline;}		

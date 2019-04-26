@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+#top{
+	 text-align:right;
+	}
+#mid{
+	text-align:center;
+	
+   }
+#footer{
+       padding-top:230px;
+	   text-align:center;
+	  }

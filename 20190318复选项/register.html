@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>注册</title>
+</head>
+
+<body>
+<form name="use">
+  <table align="center">
+    <tr>
+      <td>用户名</td><td>
+  <input  type="text"  placeholder="请输入用户名 " autofocus> </td>
+    </tr>
+    <tr>
+      <td>密码</td><td>
+        <input  type="password" >
+        </td>
+    </tr>
+    <tr>
+      <td>确认密码</td><td>
+        <input  type="password" ></td>
+    </tr>
+    <tr>
+      <td>性别</td><td>
+        <input  type="radio" name="sex" checked>
+        男
+        <input  type="radio" name="sex">
+        女</td>
+    </tr>
+    <tr>
+      <td>爱好</td><td>
+        <input  type="checkbox">
+        游戏
+        <input  type="checkbox">
+        运动
+        <input  type="checkbox">
+        阅读
+        </td>
+    </tr>
+    <tr>
+      <td>个人简介</td><td> 
+     <textarea cols="30" rows="10"> </textarea>   
+     </td>
+    </tr>
+    <tr>
+      <td>籍贯</td><td>
+        <select>
+          <option>长沙</option>
+          <option>北京</option>
+          <option>上海</option>
+          <option>苏州</option>
+        </select></td>
+    </tr>
+    <tr><td>邮箱地址</td><td>
+<input type="email" required>
+<input type="submit"  value="登陆" ></td>
+<td>&nbsp;</td></tr>
+<tr><td>网址</td><td><input type="url" list="url-list"></td></tr>
+<datalist id="url-list">
+<option value="http://www.baidu.com" label="百度">
+<option value="http://www.sohu.com" label="搜狐">
+<tr><td>年龄</td><td><input type="number" min="15" max="30" step="1"></td></tr>
+<tr><td>邮编</td><td><input type="text" id="PostalCode" size="20" pattern="[0-9][6]"title="请输入六位数邮编" required ></td></tr>
+  </table>
+</form>
+</body>
+</html> 
